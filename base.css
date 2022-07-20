@@ -1,18 +1,20 @@
+/*h1 header style*/
+.top-header {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    font-size: 45px;
+    color: #f0a04b;
+  }
 
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
-
-body {
-    background: rgb(19, 19, 19);
-    color: #fff;
-    font-family: 'Noto Sans', sans-serif;
-}
-
+/*responsive box layout styling*/
 .card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #353535;
+    background: #0cccc2;
     font-size: 3rem;
     color: #fff;
     box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
@@ -31,3 +33,77 @@ body {
     box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
     transform: translateY(-3px) scale(1.1);
  }
+
+  /*page 2 (INFO) card styling and layout*/
+  /*inner card - card content*/
+  .card-info {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-around;
+    align-items: center;
+    background: #fefbe9;
+    font-size: 3rem;
+    color: #0cccc2;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 500ms;
+    overflow: hidden;
+    border-top: solid .5px #f0a04b;
+    border-left: solid 2px #f0a04b;
+
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .card-info:hover {
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.1);
+ }
+
+ /*card layout COME BACK AND CHECK THIS*/
+ .basic-grid-info-page {
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: repeat(auto-fill, minmax(20px, 1fr));
+}
+
+/*info page card content*/
+.info-content {
+    letter-spacing: 2.5px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    color: #0cccc2;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 3px;
+    margin-top: 8px;
+}
+
+/*underline style accent for info page*/
+.underline {
+    display: block;
+    width: 70px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color:#f0a04b;
+  }
+
+/*info page details content*/
+.detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 50%;
+    font-family: 'Lora', Georgia, times, serif;
+    font-weight: normal;
+    line-height: 1.2;
+    font-style: oblique;
+    font-size: medium;
+  }
