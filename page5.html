@@ -34,8 +34,6 @@
         </label>
     </header> <br> <br> <br>
 
-        <!--ADD dates 'from when to when' box-->
-
 
     <!--RSVP FORM-->
     <div class="top">
@@ -56,9 +54,29 @@
              <p class= "line">_______________________________</p>
       <input type="text" placeholder="Name">
       <input type="number" placeholder="# of Guests">
+
+
+      <h2 class="rsvp">Arrival & Departure</h2>
+      <p class= "line">_______________________________</p>
+      <p class="rsvp">Availability from August 3rd thru August 8th</p>
+
+      <!--Date Picker-->
+      <v-date-picker v-model="range" is-range />
+      <mat-date-range-input [rangePicker]="picker">
+        <input matStartDate placeholder="Arrival">
+        <input matEndDate placeholder="Departure">
+      </mat-date-range-input>
+      
+      <mat-date-range-picker #picker></mat-date-range-picker>      
+
+
+
+
       </div>
+      
       <button id="rsvp" class ="accept">Accept</button>
       <button id="rsvp" class ="regret">Decline</button>
+      
     </div>
 
 

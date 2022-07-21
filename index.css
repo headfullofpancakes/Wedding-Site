@@ -216,6 +216,15 @@ button:hover {
     transform: translateY(-1px);
   }
 
+  /*Color bar at top of pages*/
+  .top-all {
+    background-color: #18ada6;
+    height: 80px;
+    margin:0;
+    padding:0;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, .25);
+  }
+
   /*RSVP FORM*/
   .top {
     background-color: #18ada6;
@@ -226,7 +235,7 @@ button:hover {
   }
   
   .form {
-    height: 590px;
+    height: 800px;
     width: 400px;
     background-color: #f6c453;
     margin: -110px auto;
@@ -324,3 +333,4 @@ button:hover {
     border-bottom: 8px solid #f0a04b;
     
   }
+
