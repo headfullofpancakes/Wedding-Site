@@ -219,7 +219,7 @@ button:hover {
   /*Color bar at top of pages*/
   .top-all {
     background-color: #18ada6;
-    height: 80px;
+    height: 30px;
     margin:0;
     padding:0;
     box-shadow: 2px 2px 4px rgb(0, 0, 0, .25);
@@ -236,9 +236,9 @@ button:hover {
   
   .form {
     height: 800px;
-    width: 400px;
+    width: 600px;
     background-color: #f6c453;
-    margin: -110px auto;
+    margin: -150px auto;
     border-radius: 10px;
     color: #001488;
     padding: 0px 0px;
@@ -304,7 +304,7 @@ button:hover {
     font-weight: 500;
     font-size: 18px;
     padding: 15px 32px;
-    width: 200px;
+    width: 300px;
     margin: 20px auto 0px auto; 
     float:left;
   }

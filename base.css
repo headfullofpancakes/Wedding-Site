@@ -73,6 +73,7 @@
     grid-template-rows: repeat(auto-fill, minmax(20px, 1fr));
 }
 
+
 /*info page card content*/
 .info-content {
     letter-spacing: 2.5px;
@@ -108,3 +109,28 @@
     font-style: oblique;
     font-size: medium;
   }
+
+  /*underline style accent for faq page*/
+.underline-faq {
+  display: block;
+  width: 200px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color:#f0a04b;
+}
+
+  /*faq details content*/
+  .detail-faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 50%;
+    font-family: 'Lora', Georgia, times, serif;
+    font-weight: normal;
+    line-height: 1.2;
+    font-style: oblique;
+    font-size: medium;
+  }
+
