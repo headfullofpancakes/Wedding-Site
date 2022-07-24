@@ -66,6 +66,9 @@
     transform: translateY(-3px) scale(1.1);
  }
 
+
+ /*INFO PAGE STYLE AND LAYOUT*/
+
  /*card layout COME BACK AND CHECK THIS*/
  .basic-grid-info-page {
     display: grid;
@@ -110,6 +113,21 @@
     font-size: medium;
   }
 
+
+  /*FAQ PAGE STYLE AND LAYOUT*/
+
+  /*info page card content*/
+.faq-content {
+  letter-spacing: 2.5px;
+  font-family: 'Raleway';
+  font-weight: 400;
+  color: #0cccc2;
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 3px;
+  margin-top: 8px;
+}
+
   /*underline style accent for faq page*/
 .underline-faq {
   display: block;
@@ -131,6 +149,11 @@
     font-weight: normal;
     line-height: 1.2;
     font-style: oblique;
-    font-size: medium;
+    font-size: 40%;
+  }
+
+  .p-faq {
+    font-size: larger;
+    color: #f0a04b;
   }
 

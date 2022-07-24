@@ -186,6 +186,14 @@ nav a:hover {
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
  }
 
+
+ /*rsvp-button*/
+#rsvp-button{
+  
+
+}
+
+
  /*stock button for the site*/
 .stock-button {
     padding: 1.3em 3em;
