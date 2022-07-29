@@ -1,3 +1,8 @@
+body {
+  margin: 10px auto;
+  text-align: center;
+}
+
 :root {
   --background: #fefbe9;
 }
@@ -186,11 +191,16 @@ nav a:hover {
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
  }
 
+/*HOMEPAGE PHOTO STYLING*/
+.homepage-photo {
+  border-radius: 10px;
+  max-height: 600px;
+  max-width: auto;
+}
 
- /*rsvp-button*/
-#rsvp-button{
-  
-
+.homepage-container {
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -341,4 +351,140 @@ button:hover {
     border-bottom: 8px solid #f0a04b;
     
   }
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.carousel {
+  width: auto;
+  height: 600px;
+  background-color: #eeeeee;
+  margin: auto;
+  background-size: contain;
+  animation-name: slide;
+  animation-duration: 10s;
+  animation-direction: normal;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  border-radius: 10px;
+}
+
+/* Make the images invisible by default */
+.Containers {
+  display: none;
+}
+
+/* forward & Back buttons */
+.Back, .forward {
+  cursor: pointer;
+  position: relative;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 17px;
+  color: grey;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+
+/* Place the "forward button" to the right */
+.forward {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+/*when the user hovers,add a black background with some little opacity */
+.Back:hover, .forward:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The circles or bullets and indicators */
+.dots {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 3px;
+  background-color: #acc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.enable, .dots:hover {
+  background-color: #717161;
+}
+
+/* Faint animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.4s;
+  animation-name: fade;
+  animation-duration: 1.4s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+/*
+  .simple-ss {
+    width: 60%;
+    height: 600px;
+    background-color: #eeeeee;
+    margin: auto;
+    background-image: 
+      url("img/tameimpala.jpg");
+    background-size: contain;
+    animation-name: slide;
+    animation-duration: 10s;
+    animation-direction: normal;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+  }
+  
+  @keyframes slide {
+    0% {
+      background-position: 0 0;
+    }
+    16.66% {
+      background-position: 0 0;
+    }
+    33.32% {
+      background-position: -800px 0;
+    }
+    49.98% {
+      background-position: -800px 0;
+    }
+    66.64% {
+      background-position: -1600px 0;
+    }
+    83.30% {
+      background-position: -1600px 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  */
+
 

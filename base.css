@@ -52,8 +52,8 @@
     border-radius: 4px;
     transition: all 500ms;
     overflow: hidden;
-    border-top: solid .5px #f0a04b;
-    border-left: solid 2px #f0a04b;
+    border-top: solid .5px #a50990;
+    border-left: solid 2px #a50990;
 
 
     background-size: cover;
@@ -113,6 +113,14 @@
     font-size: medium;
   }
 
+/*The Weekend Page style and layout*/
+.River-Photo {
+  height: 400px;
+  width:400px;
+  border-radius: 50%;
+}
+
+
 
   /*FAQ PAGE STYLE AND LAYOUT*/
 
@@ -157,3 +165,8 @@
     color: #f0a04b;
   }
 
+/*FAQ page Farenheit degree symbol*/
+  .degree {
+      content: "\2109";
+      font-size: medium;
+}
