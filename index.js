@@ -1,5 +1,3 @@
-
-
 var slidePosition = 1;
 SlideShow(slidePosition);
 

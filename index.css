@@ -352,6 +352,7 @@ button:hover {
     
   }
 
+/*Homepage Slideshow*/
 
 /* Slideshow container */
 .slideshow-container {
@@ -363,14 +364,9 @@ button:hover {
 .carousel {
   width: auto;
   height: 600px;
-  background-color: #eeeeee;
+
   margin: auto;
   background-size: contain;
-  animation-name: slide;
-  animation-duration: 10s;
-  animation-direction: normal;
-  animation-timing-function: ease;
-  animation-iteration-count: infinite;
   border-radius: 10px;
 }
 
@@ -387,6 +383,8 @@ button:hover {
   width: auto;
   margin-top: -23px;
   padding: 17px;
+  padding-top: 8px;
+  padding-bottom: 4px;
   color: grey;
   font-weight: bold;
   font-size: 19px;
@@ -395,15 +393,20 @@ button:hover {
   user-select: none;
 }
 
+/*Back button radius*/
+.Back {
+  border-radius: 4px 4px 4px 4px;
+}
+
 /* Place the "forward button" to the right */
 .forward {
   right: 0;
-  border-radius: 4px 0 0 4px;
+  border-radius: 4px 4px 4px 4px;
 }
 
-/*when the user hovers,add a black background with some little opacity */
+/*when the user hovers,add a black background with a little opacity */
 .Back:hover, .forward:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* The circles or bullets and indicators */
@@ -412,22 +415,22 @@ button:hover {
   height: 16px;
   width: 16px;
   margin: 0 3px;
-  background-color: #acc;
+  background-color: #f3dda9;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.5s ease;
 }
 
 .enable, .dots:hover {
-  background-color: #717161;
+  background-color: #f6c453;
 }
 
 /* Faint animation */
-.fade {
+.fade .Containers{
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.4s;
+  -webkit-animation-duration: 2s;
   animation-name: fade;
-  animation-duration: 1.4s;
+  animation-duration: 2s;
 }
 
 @-webkit-keyframes fade {
@@ -441,10 +444,9 @@ button:hover {
 }
 
 .footer {
-  left: 0;
-  bottom: 0;
   width: 100%;
-  text-align: center;
+  text-align: end;
+  padding-right: 20px;
 }
 /*
   .simple-ss {
