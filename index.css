@@ -356,7 +356,7 @@ button:hover {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width:fit-content;
   position: relative;
   margin: auto;
 }
